@@ -1,5 +1,5 @@
 import React from "react";
-import MainHeader from "./components/Head/MainHeader";
+import MainHeader from "./components/Header/MainHeader";
 
 function App() {
   return <>
