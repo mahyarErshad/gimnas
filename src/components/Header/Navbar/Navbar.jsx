@@ -34,7 +34,6 @@ function Nav() {
               </div>
             </div>
           </div>
-          <img className="max-md:max-w-[9.375rem] md:max-w-[12.5rem]" src={logo} alt="Logo" />
           <div className="-mr-2 flex md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} type="button" className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
               <span className="sr-only">Open main menu</span>
@@ -49,9 +48,9 @@ function Nav() {
               )}
             </button>
           </div>
+      <img className="max-md:max-w-[9.375rem] md:max-w-[12.5rem]" src={logo} alt="Logo" />
         </div>
       </div>
-
       <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="transition ease-in duration-75 transform" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
         {() => (
           <div className="md:hidden" id="mobile-menu">
