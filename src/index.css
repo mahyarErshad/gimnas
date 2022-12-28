@@ -17,10 +17,8 @@
   src: url("/assets/fonts/YekanBakh-Bold.woff");
 }
 :root {
-  --primary-color: #6efafb;
+  --primary-color: #EA4C22;
   --white: #fff;
-  --gray: #dcdcdc;
-  --purple: #445dc8;
 }
 html,
 body,
