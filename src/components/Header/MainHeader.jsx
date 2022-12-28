@@ -1,10 +1,12 @@
-import React from 'react'
-import Navbar from './Navbar/Navbar'
+import React from "react";
+import Navbar from "./Navbar/Navbar";
 
 function MainHeader() {
   return (
-    <Navbar />
-  )
+    <header>
+      <Navbar />
+    </header>
+  );
 }
 
-export default MainHeader
+export default MainHeader;
