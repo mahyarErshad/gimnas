@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Transition } from "@headlessui/react";
 
 function Nav() {
@@ -54,9 +54,9 @@ function Nav() {
         </div>
 
         <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="transition ease-in duration-75 transform" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
-          {(ref) => (
+          {() => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div ref={React.createRef()} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="#" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                   Dashboard
                 </a>
