@@ -12,8 +12,8 @@ function Nav() {
             <div className="flex-shrink-0"></div>
             <div className="hidden md:block">
               <ul className="ml-10 flex items-baseline space-x-4">
-                <li>
-                  <a href="#" className=" hover:text-[#bbb] text-white text-xl px-3 py-2 font-semibold">
+                <li className="relative">
+                  <a href="#" className=" hover:text-[#bbb] text-white text-xl px-3 py-2 font-semibold nav-items">
                     مستندات
                   </a>
                 </li>

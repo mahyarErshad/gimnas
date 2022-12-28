@@ -47,3 +47,32 @@ header {
   background-attachment: fixed;
   z-index: 1;
 }
+.nav-items {
+  transition: 0.5s ease all;
+}
+.nav-items::before {
+  content: " ";
+  position: absolute;
+  top: 0%;
+  left: 11%;
+  height: 1px;
+  width: 0px;
+  background-color: var(--primary-color);
+  transition: 0.5s ease all;
+}
+.nav-items:hover:before {
+  width: 1.25rem;
+}
+.nav-items::after {
+  content: " ";
+  position: absolute;
+  bottom: 0%;
+  right: 11%;
+  height: 1px;
+  width: 0px;
+  background-color: var(--primary-color);
+  transition: 0.5s ease all;
+}
+.nav-items:hover:after {
+  width: 1.25rem;
+}
