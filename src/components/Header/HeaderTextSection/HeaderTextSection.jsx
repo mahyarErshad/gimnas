@@ -14,7 +14,7 @@ function HeaderTextSection() {
         </p>
       </div>
       <div className="flex justify-center">
-      <CustomButton />
+      <CustomButton title="مشاهده همه دموها" />
       </div>
     </div>
   );
