@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import HeaderTextSection from "./HeaderTextSection/HeaderTextSection";
 import Navbar from "./Navbar/Navbar";
 
@@ -11,4 +11,4 @@ function MainHeader() {
   );
 }
 
-export default MainHeader;
+export default memo(MainHeader);
