@@ -13,7 +13,9 @@ function HeaderTextSection() {
         </p>
       </div>
       <div className="flex justify-center">
-        <button className="bg-primary transition-all hover:opacity-90 max-md:py-3 md:py-4 max-md:px-6 md:px-8 max-md:text-base md:text-lg lg:text-xl font-medium rounded-[1.875rem] text-center">مشاهده همه دموها</button>
+        <a href="#">
+          <button className="bg-primary transition-all hover:opacity-90 max-md:py-3 md:py-4 max-md:px-6 md:px-8 max-md:text-base md:text-lg lg:text-xl font-medium rounded-[1.875rem] text-center">مشاهده همه دموها</button>
+        </a>
       </div>
     </div>
   );
