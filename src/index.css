@@ -66,8 +66,8 @@ header {
 .nav-items::after {
   content: " ";
   position: absolute;
-  bottom: 0%;
-  right: 11%;
+  bottom: -10%;
+  right: 8%;
   height: 1px;
   width: 0px;
   background-color: var(--primary-color);
