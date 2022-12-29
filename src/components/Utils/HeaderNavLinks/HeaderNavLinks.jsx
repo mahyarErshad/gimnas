@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 function HeaderNavLinks(props) {
   const color = props.color || "text-white";
@@ -12,4 +12,4 @@ function HeaderNavLinks(props) {
   );
 }
 
-export default HeaderNavLinks;
+export default memo(HeaderNavLinks);
