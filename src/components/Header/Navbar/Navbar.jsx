@@ -1,9 +1,20 @@
 import React, { useState } from "react";
 import logo from "../../../assets/images/logo.png";
 import { Transition } from "@headlessui/react";
+import HeaderNavLinks from "../../Utils/HeaderNavLinks/HeaderNavLinks";
 
-function Nav() {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const navLinks = () => {
+    return (
+      <>
+        <HeaderNavLinks color="#bbb" title="شروع سفر" />
+        <HeaderNavLinks title="پیش نمایش ها" />
+        <HeaderNavLinks title="ویژگی ها" />
+        <HeaderNavLinks title="مستندات آنلاین" />
+      </>
+    );
+  };
   return (
     <nav className="pt-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,13 +22,7 @@ function Nav() {
           <div className="flex items-center">
             <div className="flex-shrink-0"></div>
             <div className="hidden md:block">
-              <ul className="ml-10 flex items-baseline space-x-4">
-                <li className="relative">
-                  <a href="#" className=" hover:text-[#bbb] text-white text-xl px-3 py-2 font-semibold nav-items">
-                    مستندات
-                  </a>
-                </li>
-              </ul>
+              <ul className="ml-10 flex items-baseline space-x-4"></ul>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -40,11 +45,7 @@ function Nav() {
       <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="transition ease-in duration-75 transform" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
         {() => (
           <div className="md:hidden" id="mobile-menu">
-            <div ref={React.createRef()} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a href="#" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
-                Dashboard
-              </a>
-            </div>
+            <div ref={React.createRef()} className="px-2 pt-2 pb-3 space-y-1 sm:px-3"></div>
           </div>
         )}
       </Transition>
@@ -52,4 +53,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navbar;
