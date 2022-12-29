@@ -7,7 +7,7 @@ function HeaderTextSection() {
         <span className="text-[5rem] font-black absolute top-[12%]">12</span>
         <span className="text-lg font-black absolute top-[60%]">صفحه اصلی</span>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center px-4">
         <p className="font-bold max-md:text-xl md:text-3xl lg:text-5xl text-center">
           جیمناس - <span className="text-inherit text-primary font-bold">محبوب ترین قالب باشگاهی ورزشی </span> وردپرس
         </p>
