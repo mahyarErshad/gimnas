@@ -5,7 +5,7 @@ import HeaderNavLinks from "../../Utils/HeaderNavLinks/HeaderNavLinks";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const navLinks = () => {
+  const NavLinks = () => {
     return (
       <>
         <HeaderNavLinks color="#bbb" title="شروع سفر" />
@@ -22,7 +22,9 @@ function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0"></div>
             <div className="hidden md:block">
-              <ul className="ml-10 flex items-baseline space-x-4"></ul>
+              <ul className="ml-10 flex items-baseline space-x-4">
+                
+              </ul>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
