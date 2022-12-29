@@ -23,7 +23,7 @@ function Navbar() {
             <div className="flex-shrink-0"></div>
             <div className="hidden md:block">
               <ul className="ml-10 flex items-baseline space-x-4">
-                
+                <NavLinks />
               </ul>
             </div>
           </div>
