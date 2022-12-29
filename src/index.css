@@ -53,8 +53,8 @@ header {
 .nav-items::before {
   content: " ";
   position: absolute;
-  top: 0%;
-  left: 11%;
+  top: -4%;
+  left: 9%;
   height: 1px;
   width: 0px;
   background-color: var(--primary-color);
