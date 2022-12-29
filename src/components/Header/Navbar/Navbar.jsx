@@ -8,7 +8,7 @@ function Navbar() {
   const NavLinks = () => {
     return (
       <>
-        <HeaderNavLinks color="#bbb" title="شروع سفر" />
+        <HeaderNavLinks color="text-[#bbb]" title="شروع سفر" />
         <HeaderNavLinks title="پیش نمایش ها" />
         <HeaderNavLinks title="ویژگی ها" />
         <HeaderNavLinks title="مستندات آنلاین" />
