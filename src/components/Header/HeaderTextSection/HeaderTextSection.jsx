@@ -12,6 +12,9 @@ function HeaderTextSection() {
           جیمناس - <span className="text-inherit text-primary font-bold">محبوب ترین قالب باشگاهی ورزشی </span> وردپرس
         </p>
       </div>
+      <div>
+        <button>مشاهده همه دموها</button>
+      </div>
     </div>
   );
 }
