@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 function HeaderTextSection() {
   return (
@@ -6,4 +6,4 @@ function HeaderTextSection() {
   )
 }
 
-export default memoHeaderTextSection
+export default memo(HeaderTextSection)
