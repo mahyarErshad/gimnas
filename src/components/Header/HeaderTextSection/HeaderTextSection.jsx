@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+import CustomButton from "../../Utils/Buttons/CustomButton/CustomButton";
 
 function HeaderTextSection() {
   return (
@@ -13,7 +14,7 @@ function HeaderTextSection() {
         </p>
       </div>
       <div className="flex justify-center">
-
+      <CustomButton />
       </div>
     </div>
   );
