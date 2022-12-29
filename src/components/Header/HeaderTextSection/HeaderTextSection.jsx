@@ -12,8 +12,8 @@ function HeaderTextSection() {
           جیمناس - <span className="text-inherit text-primary font-bold">محبوب ترین قالب باشگاهی ورزشی </span> وردپرس
         </p>
       </div>
-      <div>
-        <button>مشاهده همه دموها</button>
+      <div className="flex justify-center">
+        <button className="bg-primary transition-all hover:opacity-90 max-md:py-3 md:py-4 max-md:px-6 md:px-8 max-md:text-base md:text-lg lg:text-xl font-medium rounded-[1.875rem] text-center">مشاهده همه دموها</button>
       </div>
     </div>
   );
