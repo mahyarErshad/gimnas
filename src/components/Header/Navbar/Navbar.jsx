@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import logo from "../../../assets/images/logo.png";
 import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "../../Utils/HeaderNavLinks/HeaderNavLinks";
@@ -55,4 +55,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default memo(Navbar);
