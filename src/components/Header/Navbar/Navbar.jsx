@@ -11,7 +11,7 @@ function Navbar() {
         <HeaderNavLinks color="text-[#bbb]" title="شروع سفر" />
         <HeaderNavLinks title="پیش نمایش ها" />
         <HeaderNavLinks title="ویژگی ها" />
-        <HeaderNavLinks title="مستندات آنلاین" />
+        <HeaderNavLinks href="https://www.rstheme.com/products/documentations/gimnas/" title="مستندات آنلاین" />
       </>
     );
   };
