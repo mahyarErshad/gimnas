@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function HeaderSliderButton() {
+function HeaderSliderButton(props) {
   return (
-    <div>HeaderSliderButton</div>
-  )
+    <button>
+      <img src={props.image} alt={props.title} />
+      <span>{props.title}</span>
+    </button>
+  );
 }
 
-export default HeaderSliderButton
+export default HeaderSliderButton;
