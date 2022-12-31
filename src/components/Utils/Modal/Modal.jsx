@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import ModalContext from "../../../lib/context/ModalContext";
 import "./modal.css";
 
 function Modal() {
-  return <div className="fixed top-0 right-0 w-full h-full z-20 bg-[#232323] modal-animation opacity-[0.85]"></div>;
+  const modalContext = useContext(ModalContext);
+  return <div onClick={() => modalContext.setIsModalOpen(false)} className="fixed top-0 right-0 w-full h-full z-20 bg-[#232323] modal-animation opacity-[0.85]"></div>;
 }
 
 export default Modal;
