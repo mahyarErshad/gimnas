@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 
 function HeaderSliderButton(props) {
     const [open, setOpen] = useState(false)
@@ -12,4 +12,4 @@ function HeaderSliderButton(props) {
   );
 }
 
-export default HeaderSliderButton;
+export default memo(HeaderSliderButton);
