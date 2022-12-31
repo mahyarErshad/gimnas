@@ -1,0 +1,11 @@
+@keyframes openModal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.85;
+  }
+}
+.modal-animation {
+  animation: openModal linear 500ms;
+}
