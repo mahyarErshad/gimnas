@@ -7,7 +7,7 @@ function App() {
   const { modalIsOpen } = useContext(CustomContext);
   return (
     <>
-      <Modal />
+      {modalIsOpen && <Modal />}
       <MainHeader />
     </>
   );
