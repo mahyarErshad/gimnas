@@ -1,13 +1,13 @@
 import React from "react";
 import MainHeader from "./components/Header/MainHeader";
-import CustomContext from "./lib/context/ModalContext";
+import ModalContext from "./lib/context/ModalContext";
 
 function App() {
   return (
     <>
-      <CustomContext>
+      <ModalContext>
         <MainHeader />
-      </CustomContext>
+      </ModalContext>
     </>
   );
 }

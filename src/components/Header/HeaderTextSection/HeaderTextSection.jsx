@@ -1,8 +1,11 @@
-import React, { memo } from "react";
+import React, { memo, useContext } from "react";
+import ModalContext from "../../../lib/context/ModalContext";
 import HeaderSliderButton from "../../Utils/Buttons/HeaderSliderButton/HeaderSliderButton";
 import HeaderTexts from "./HeaderTexts";
 
 function HeaderTextSection() {
+  const modalContext = useContext(ModalContext);
+  console.log(modalContext);
   return (
     <div className="text-white w-full h-full flex justify-start flex-col items-center max-lg:gap-6 lg:gap-8 max-lg:pt-16 lg:pt-36">
       <HeaderTexts />
