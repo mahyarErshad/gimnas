@@ -6,7 +6,7 @@ function HeaderTextSection() {
   return (
     <div className="text-white w-full h-full flex justify-start flex-col items-center max-lg:gap-6 lg:gap-8 max-lg:pt-16 lg:pt-36">
       <HeaderTexts />
-      <HeaderSliderButton title="پشتیبانی" image="https://img.icons8.com/sf-regular/50/FFFFFF/question-shield.png" />
+      <HeaderSliderButton title="پشتیبانی" image="https://img.icons8.com/material-outlined/25/FFFFFF/help.png" />
     </div>
   );
 }
