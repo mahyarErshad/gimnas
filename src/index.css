@@ -93,3 +93,6 @@ header {
     transform: translateY(-15px);
   }
 }
+.flip{
+  transform: scaleX(-1)
+}
