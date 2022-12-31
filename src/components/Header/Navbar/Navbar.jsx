@@ -3,6 +3,7 @@ import logo from "../../../assets/images/logo.png";
 import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "../../Utils/HeaderNavLinks/HeaderNavLinks";
 import { ReactComponent as CloseIcon } from "../../../assets/images/closeIcon.svg";
+import { ReactComponent as BurgerMenuIcon } from "../../../assets/images/burgerMenuIcon.svg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,11 +32,7 @@ function Navbar() {
           <div className="-mr-2 flex lg:hidden">
             <button onClick={() => setIsOpen(!isOpen)} type="button" className="bg-primary absolute right-[10%] top-[3.2%] inline-flex items-center justify-center p-2 rounded-md text-white hover:opacity-90 transition-all" aria-controls="mobile-menu" aria-expanded="false">
               <span className="sr-only">Open main menu</span>
-              {!isOpen ? (
-
-              ) : (
-                <CloseIcon />
-              )}
+              {!isOpen ? <BurgerMenuIcon /> : <CloseIcon />}
             </button>
           </div>
           <img className="max-md:max-w-[9.375rem] md:max-w-[12.5rem]" src={logo} alt="Logo" />
