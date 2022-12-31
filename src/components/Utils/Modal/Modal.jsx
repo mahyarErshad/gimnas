@@ -1,12 +1,7 @@
-import React, { useState } from 'react'
+import React from "react";
 
-function Modal(props) {
-const [open, setOpen] = useState(false)
-
-
-  return (
-    <div>Modal</div>
-  )
+function Modal() {
+  return <div>Modal</div>;
 }
 
-export default Modal
+export default Modal;
