@@ -1,14 +1,13 @@
-import React, { useContext } from "react";
+import React from "react";
 import MainHeader from "./components/Header/MainHeader";
-import Modal from "./components/Utils/Modal/Modal";
-import CustomContext from "./lib/context/CustomContext";
+import CustomContext from "./lib/context/ModalContext";
 
 function App() {
-  const { modalIsOpen } = useContext(CustomContext);
   return (
     <>
-      {modalIsOpen && <Modal />}
-      <MainHeader />
+      <CustomContext>
+        <MainHeader />
+      </CustomContext>
     </>
   );
 }

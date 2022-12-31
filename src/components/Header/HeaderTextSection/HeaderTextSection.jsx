@@ -1,10 +1,8 @@
-import React, { memo, useContext } from "react";
-import CustomContext from "../../../lib/context/CustomContext";
+import React, { memo } from "react";
 import HeaderSliderButton from "../../Utils/Buttons/HeaderSliderButton/HeaderSliderButton";
 import HeaderTexts from "./HeaderTexts";
 
 function HeaderTextSection() {
-  const {modalIsOpen} = useContext(CustomContext);
   return (
     <div className="text-white w-full h-full flex justify-start flex-col items-center max-lg:gap-6 lg:gap-8 max-lg:pt-16 lg:pt-36">
       <HeaderTexts />
