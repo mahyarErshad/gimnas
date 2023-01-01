@@ -13,3 +13,6 @@
       transform: translateY(-15px);
     }
   }
+.animation {
+  animation: bounce 1000ms infinite;
+}

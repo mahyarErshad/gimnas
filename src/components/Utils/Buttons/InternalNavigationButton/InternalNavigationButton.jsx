@@ -1,5 +1,5 @@
 import React from "react";
-import "./InternalNavigationButton.css";
+import styles from "./InternalNavigationButton.module.css";
 
 function InternalNavigationButton(props) {
   return (
