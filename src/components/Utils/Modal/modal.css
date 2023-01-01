@@ -14,6 +14,9 @@
     opacity: 0;
   }
 }
-.modal-animation {
+.modal-animation__open {
   animation: openModal linear 500ms;
+}
+.modal-animation__close {
+  animation: closeModal linear 500ms;
 }
