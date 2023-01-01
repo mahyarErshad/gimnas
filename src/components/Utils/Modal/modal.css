@@ -6,17 +6,6 @@
     opacity: 0.85;
   }
 }
-@keyframes closeModal {
-  0% {
-    opacity: 0.85;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 .modal-animation__open {
   animation: openModal linear 500ms;
-}
-.modal-animation__close {
-  animation: closeModal linear 500ms;
 }
