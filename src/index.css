@@ -96,3 +96,6 @@ header {
   -moz-box-shadow: 0px 0px 38px -1px rgba(234, 76, 34, 1);
   box-shadow: 0px 0px 38px -1px rgba(234, 76, 34, 1);
 }
+#HeaderTextSection {
+  height: 90vh;
+}
