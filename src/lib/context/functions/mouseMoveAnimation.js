@@ -10,11 +10,14 @@ export default function animatedCircles(event) {
 
   circle.style.transition = "all 0.5s linear 0s";
 
-  circle.style.left = circle.offsetLeft - 20 + "px";
-  circle.style.top = circle.offsetTop - 20 + "px";
+  circle.style.left = circle.offsetLeft;
+  circle.style.top = circle.offsetTop;
 
-  circle.style.width = "50px";
-  circle.style.height = "50px";
+  circle.style.width = "100px";
+  circle.style.height = "100px";
   circle.style.borderWidth = "5px";
   circle.style.opacity = 0;
+  setTimeout(() => {
+    document.body.removeChild(circle);
+  }, 500);
 }
