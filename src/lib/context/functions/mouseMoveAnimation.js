@@ -1,8 +1,9 @@
 export default function animatedCircles(event) {
   const color = "#ea4c22";
+  const header = document.getElementById("HeaderTextSection");
   let circle = document.createElement("span");
   circle.setAttribute("class", "circle");
-  document.body.appendChild(circle);
+  header.appendChild(circle);
 
   circle.style.left = event.clientX + "px";
   circle.style.top = event.clientY + "px";
@@ -13,11 +14,11 @@ export default function animatedCircles(event) {
   circle.style.left = circle.offsetLeft;
   circle.style.top = circle.offsetTop;
 
-  circle.style.width = "100px";
-  circle.style.height = "100px";
+  circle.style.width = "75px";
+  circle.style.height = "75px";
   circle.style.borderWidth = "5px";
   circle.style.opacity = 0;
   setTimeout(() => {
-    document.body.removeChild(circle);
+    header.removeChild(circle);
   }, 500);
 }
