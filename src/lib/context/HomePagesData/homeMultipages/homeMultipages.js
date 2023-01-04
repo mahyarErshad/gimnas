@@ -24,6 +24,11 @@ const homeMultiPagesData = [
     title: "صفحه اصلی ۴ (یوگا)",
     href: "https://rstheme.com/products/wordpress/gimnas/home-four/",
   },
+  {
+    image: Home5,
+    title: "صفحه اصلی ۵ (مربی شخصی)",
+    href: "https://rstheme.com/products/wordpress/gimnas/home-personal-trainer/",
+  },
 ];
 
 export default homeMultiPagesData;
