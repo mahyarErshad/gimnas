@@ -1,5 +1,5 @@
 import React from 'react'
-import PageCounter from './BodyParts/PageCounter'
+import PageCounter from './BodyParts/PageCounter/PageCounter'
 
 function MainBody() {
   return (
