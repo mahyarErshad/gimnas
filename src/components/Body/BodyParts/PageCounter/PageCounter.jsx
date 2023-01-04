@@ -7,7 +7,7 @@ function PageCounter() {
       <PageCounterComponent number="۱۲" text="تعداد صفحات اصلی" />
       <PageCounterComponent number="۰۶" text="صفحات اصلی چندگانه" />
       <PageCounterComponent number="۰۶" text="صفحات اصلی تکی" />
-      <PageCounterComponent number="۴۶" text="صفحات داخلی" />
+      <PageCounterComponent plus number="۴۶" text="صفحات داخلی" />
     </section>
   );
 }
