@@ -1,12 +1,12 @@
-import React from 'react'
-import PageCounter from './BodyParts/PageCounter/PageCounter'
+import React from "react";
+import PageCounter from "./BodyParts/PageCounter/PageCounter";
 
 function MainBody() {
   return (
     <>
-        <PageCounter />
+      <PageCounter />
     </>
-  )
+  );
 }
 
-export default MainBody
+export default MainBody;
