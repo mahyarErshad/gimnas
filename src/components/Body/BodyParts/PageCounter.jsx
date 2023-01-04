@@ -2,7 +2,7 @@ import React from 'react'
 
 function PageCounter() {
   return (
-    <div>PageCounter</div>
+    <section className='bg-bgGray'>PageCounter</section>
   )
 }
 
