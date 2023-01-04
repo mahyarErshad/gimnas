@@ -1,5 +1,4 @@
 import React from "react";
-import { Waypoint } from 'react-waypoint';
 
 function PageCounterComponent(props) {
   return (
