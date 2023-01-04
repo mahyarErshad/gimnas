@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import homeMultiPagesData from "../../lib/context/HomePagesData/homeMultipages/homeMultipages";
 import BodyPageLayout from "./BodyPageLayout/BodyPageLayout";
 import PageCounter from "./BodyParts/PageCounter/PageCounter";
@@ -13,4 +13,4 @@ function MainBody() {
   );
 }
 
-export default MainBody;
+export default memo(MainBody);
