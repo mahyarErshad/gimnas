@@ -1,8 +1,11 @@
 import React from 'react'
+import PageCounter from './BodyParts/PageCounter'
 
 function MainBody() {
   return (
-    <div>MainBody</div>
+    <>
+        <PageCounter />
+    </>
   )
 }
 
