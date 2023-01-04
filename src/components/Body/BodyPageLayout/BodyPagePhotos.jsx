@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 function BodyPagePhotos(props) {
   return (
@@ -9,4 +9,4 @@ function BodyPagePhotos(props) {
   );
 }
 
-export default BodyPagePhotos;
+export default memo(BodyPagePhotos);
