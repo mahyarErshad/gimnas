@@ -3,6 +3,7 @@ import Home2 from "../../../../assets/images/homeMultipages/Home2.jpg";
 import Home3 from "../../../../assets/images/homeMultipages/Home3.jpg";
 import Home4 from "../../../../assets/images/homeMultipages/Home4.jpg";
 import Home5 from "../../../../assets/images/homeMultipages/Home5.jpg";
+import Yoga from "../../../../assets/images/homeMultipages/Yoga.jpg";
 const homeMultiPagesData = [
   {
     image: homeGymDefault,
