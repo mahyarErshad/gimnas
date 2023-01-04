@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function PageCounterComponent() {
-  return (
-    <div>PageCounterComponent</div>
-  )
+  return <div className="lg:p-8 md:p-6 max-md:p-4 max-md:w-full md:w-2/4 lg:w-1/4">
+    
+  </div>;
 }
 
-export default PageCounterComponent
+export default PageCounterComponent;
