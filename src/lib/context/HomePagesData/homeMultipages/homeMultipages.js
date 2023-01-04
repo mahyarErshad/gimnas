@@ -30,6 +30,11 @@ const homeMultiPagesData = [
     title: "صفحه اصلی ۵ (مربی شخصی)",
     href: "https://rstheme.com/products/wordpress/gimnas/home-personal-trainer/",
   },
+  {
+    image: Yoga,
+    title: "یوگا (مربی شخصی)",
+    href: "https://rstheme.com/products/wordpress/gimnas/yoga-personal-trainer/",
+  },
 ];
 
 export default homeMultiPagesData;
