@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import BodyPagePhotos from "./BodyPagePhotos";
 
 function BodyPageLayout(props) {
@@ -13,4 +13,4 @@ function BodyPageLayout(props) {
   );
 }
 
-export default BodyPageLayout;
+export default memo(BodyPageLayout);
