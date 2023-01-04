@@ -6,9 +6,7 @@ function MainBody() {
   return (
     <>
       <PageCounter />
-      <BodyPageLayout title="۰۶ صفحات اصلی چندگانه">
-
-      </BodyPageLayout>
+      <BodyPageLayout title="۰۶ صفحات اصلی چندگانه" />
     </>
   );
 }
