@@ -101,5 +101,10 @@ header {
   height: 90vh;
 }
 .custom-shadow {
-  box-shadow: 3px 5px 25px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0.1875rem 0.3125rem 1.5625rem 0 rgb(0 0 0 / 10%);
+  transition: all ease 300ms;
+}
+.custom-shadow:hover {
+  opacity: 0.8;
+  transform: translateY(-0.3125rem);
 }
