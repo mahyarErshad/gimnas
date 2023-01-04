@@ -4,6 +4,7 @@ import BodyPageLayout from "./BodyPageLayout/BodyPageLayout";
 import PageCounter from "./BodyParts/PageCounter/PageCounter";
 
 function MainBody() {
+
   return (
     <>
       <PageCounter />
