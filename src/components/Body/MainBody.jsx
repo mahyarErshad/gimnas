@@ -8,7 +8,7 @@ function MainBody() {
     <>
       <PageCounter />
       <BodyPageLayout title="۰۶ صفحات اصلی چندگانه">
-        <img src={homeGymDefault} alt="homeGymDefault" />
+        <img src={homeGymDefault} alt="homeGymDefault" className="max-md:w-[35rem] md:w-[21.5625rem] lg:w-[26.625rem]" />
       </BodyPageLayout>
     </>
   );
