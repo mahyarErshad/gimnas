@@ -5,11 +5,10 @@ import PageCounter from "./BodyParts/PageCounter/PageCounter";
 import FullyResponsive from "./FullyResponsive/FullyResponsive";
 
 function MainBody() {
-
   return (
     <>
       <PageCounter />
-      <BodyPageLayout title="۰۶ صفحات اصلی چندگانه" data={homeMultiPagesData} />
+      <BodyPageLayout bgColor="bg-gray" title="۰۶ صفحات اصلی چندگانه" data={homeMultiPagesData} />
       <FullyResponsive />
     </>
   );
