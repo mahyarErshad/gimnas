@@ -8,7 +8,7 @@ function MainBody() {
   return (
     <>
       <PageCounter />
-      <BodyPageLayout bgColor="bg-gray" title="۰۶ صفحات اصلی چندگانه" data={homeMultiPagesData} />
+      <BodyPageLayout bgColor="bg-gray" title="صفحات اصلی چندگانه" data={homeMultiPagesData} />
       <FullyResponsive />
     </>
   );
