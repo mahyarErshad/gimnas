@@ -1,5 +1,5 @@
 import React from "react";
-import gimnas from "../../assets/images/logo.png";
+import gimnas from "../../assets/images/logo-black.png";
 
 function Footer() {
   return (
