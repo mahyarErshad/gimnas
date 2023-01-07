@@ -4,6 +4,7 @@ import BodyPageLayout from "./BodyPageLayout/BodyPageLayout";
 import PageCounter from "./BodyParts/PageCounter/PageCounter";
 import FullyResponsive from "./FullyResponsive/FullyResponsive";
 import MainFeatures from "./MainFeatures/MainFeatures";
+import WooCommerce from "./WooCommerce/WooCommerce";
 
 function MainBody() {
   return (
@@ -12,6 +13,7 @@ function MainBody() {
       <BodyPageLayout bgColor="bg-gray" title="صفحات اصلی چندگانه" data={homeMultiPagesData} />
       <FullyResponsive />
       <MainFeatures />
+      <WooCommerce />
     </>
   );
 }
