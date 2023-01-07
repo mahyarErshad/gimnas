@@ -14,7 +14,7 @@ function HeaderTexts() {
         </p>
       </div>
       <div className="flex justify-center">
-        <CustomButton title="مشاهده همه دموها" />
+        <CustomButton href="#demos" title="مشاهده همه دموها" />
       </div>
     </>
   );
