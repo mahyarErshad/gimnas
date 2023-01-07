@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import PageCounterComponent from "./PageCounterComponent";
 import HeaderSliderButton from "../../../Utils/Buttons/HeaderSliderButton/HeaderSliderButton"
+import ModalContext from "../../../../lib/context/ModalContext";
 
 function PageCounter() {
+  const modalContext = useContext(ModalContext);
   return (
     <section id="page-counter" className="bg-white py-[5.625rem] flex justify-center items-center flex-wrap max-md:px-4 md:px-8 lg:px-[15%] max-lg:gap-20">
       <HeaderSliderButton onClick={() => {modalContext.setIsModalOpen(true)}} title="پشتیبانی" image="https://img.icons8.com/windows/32/FFFFFF/help.png" top="top-[75%]" />
