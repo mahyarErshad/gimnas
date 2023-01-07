@@ -3,7 +3,7 @@ import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
 import { faTabletScreenButton } from "@fortawesome/free-solid-svg-icons";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { memo } from "react";
 import MainFeatureCards from "./MainFeatureCards";
 
 function MainFeatures() {
@@ -41,4 +41,4 @@ function MainFeatures() {
   );
 }
 
-export default MainFeatures;
+export default memo(MainFeatures);
