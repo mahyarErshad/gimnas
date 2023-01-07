@@ -4,6 +4,7 @@ import BodyPageLayout from "./BodyPageLayout/BodyPageLayout";
 import PageCounter from "./BodyParts/PageCounter/PageCounter";
 import FullyResponsive from "./FullyResponsive/FullyResponsive";
 import MainFeatures from "./MainFeatures/MainFeatures";
+import StartYourSite from "./StartYourSite/StartYourSite";
 import WooCommerce from "./WooCommerce/WooCommerce";
 
 function MainBody() {
@@ -14,6 +15,7 @@ function MainBody() {
       <FullyResponsive />
       <MainFeatures />
       <WooCommerce />
+      <StartYourSite />
     </>
   );
 }
