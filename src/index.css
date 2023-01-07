@@ -32,6 +32,7 @@ body,
   height: 100%;
   min-width: 376px;
   background-color: var(--white);
+  scroll-behavior: smooth;
 }
 body {
   direction: rtl;
@@ -109,5 +110,5 @@ header {
   transform: translateY(-0.3125rem);
 }
 .main-feature-card:hover svg {
-color: var(--primary-color);
+  color: var(--primary-color);
 }
