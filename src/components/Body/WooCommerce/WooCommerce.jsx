@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import wooCommerce from "../../../assets/images/wooCommerce.png";
 
 function WooCommerce() {
@@ -9,4 +9,4 @@ function WooCommerce() {
   );
 }
 
-export default WooCommerce;
+export default memo(WooCommerce);
