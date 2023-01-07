@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import gimnas from "../../assets/images/logo.png";
 
 function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer className="flex-full-center bg-white py-8 px-4">
+      <img src={gimnas} alt="Gimnas Logo" />
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
