@@ -5,7 +5,7 @@ function HeaderNavLinks(props) {
   const color = props.color || "text-white";
   return (
     <li className="relative max-lg:pt-4">
-      <a href={href} className={`hover:text-[#bbb] ${color} text-lg px-3 py-2 font-semibold nav-items whitespace-nowrap max-lg:mr-[13%] max-sm:mr-12`}>
+      <a href={href} target={props.target || ""} className={`hover:text-[#bbb] ${color} text-lg px-3 py-2 font-semibold nav-items whitespace-nowrap max-lg:mr-[13%] max-sm:mr-12`}>
         {props.title}
       </a>
     </li>
