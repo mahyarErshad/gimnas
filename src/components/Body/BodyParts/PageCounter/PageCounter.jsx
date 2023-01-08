@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { memo, useContext } from "react";
 import PageCounterComponent from "./PageCounterComponent";
 import HeaderSliderButton from "../../../Utils/Buttons/HeaderSliderButton/HeaderSliderButton"
 import ModalContext from "../../../../lib/context/ModalContext";
@@ -17,4 +17,4 @@ function PageCounter() {
   );
 }
 
-export default PageCounter;
+export default memo(PageCounter);
