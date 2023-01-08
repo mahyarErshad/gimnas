@@ -1,3 +1,5 @@
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState, useEffect } from "react";
 
 function GoToTopButton() {
@@ -20,8 +22,8 @@ function GoToTopButton() {
 
   return (
     <>
-      <button onClick={handleScroll} className={`cursor-pointer bg-primary rounded-[50%] p-2 flex justify-center items-center border border-white fixed bottom-[5%] left-[5%] transition-all hover:bg-[#1f3fca] text-white ${scrollHeight ? "goToTopButton" : ""}`}>
-        <span className="material-symbols-outlined text-inherit">arrow_upward</span>
+      <button onClick={handleScroll} className={`cursor-pointer bg-primary z-30 rounded-[4px] p-2 flex justify-center items-center border border-white fixed bottom-[5%] left-[5%] transition-all duration-300 w-10 h-10 hover:border-primary hover:bg-white hover:text-primary text-white ${scrollHeight ? "goToTopButton" : ""}`}>
+        <FontAwesomeIcon icon={faAngleUp} />
       </button>
     </>
   );
