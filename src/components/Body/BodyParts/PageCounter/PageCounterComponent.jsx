@@ -8,7 +8,7 @@ function PageCounterComponent(props) {
         {props.counterStart && <CountUp start={0} end={props.number} duration={2} delay={0} />}
         {props.plus && <span className="text-inherit font-bold">+</span>}
       </h3>
-      <h4 className="text-xl font-bold m-0">{props.text}</h4>
+      <h4 className="text-xl text-center font-bold m-0">{props.text}</h4>
     </div>
   );
 }
