@@ -88,7 +88,7 @@ function MainFeatures() {
         {data.map((item, index) => {
           return (
             <MainFeatureCards key={index} title={item.title}>
-              <FontAwesomeIcon className="w-[3.125rem] h-[3.125rem]" icon={item.icon} />
+              <FontAwesomeIcon className="w-[3.125rem] h-[3.125rem] transition-all" icon={item.icon} />
             </MainFeatureCards>
           );
         })}
