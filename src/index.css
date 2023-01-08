@@ -112,3 +112,17 @@ header {
 .main-feature-card:hover svg {
   color: var(--primary-color);
 }
+@keyframes goToTopButtonAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.goToTopButton {
+  animation: goToTopButtonAnimation;
+  animation-duration: 1000ms;
+}
