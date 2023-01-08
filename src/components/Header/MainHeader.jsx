@@ -4,7 +4,7 @@ import Navbar from "./Navbar/Navbar";
 
 function MainHeader() {
   return (
-    <header>
+    <header className="z-10">
       <Navbar />
       <HeaderTextSection />
     </header>
