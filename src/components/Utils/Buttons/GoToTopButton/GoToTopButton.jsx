@@ -11,7 +11,7 @@ function GoToTopButton() {
  
   return (
     <>
-      <button onClick={handleScroll} className="cursor-pointer bg-primary rounded-[4px] p-2 flex justify-center items-center border border-white fixed bottom-[5%] left-[5%] transition-all duration-300 w-10 h-10 hover:border-primary hover:bg-white hover:text-primary text-white">
+      <button onClick={handleScroll} className="cursor-pointer bg-primary z-[2] rounded-[4px] p-2 flex justify-center items-center border border-white fixed bottom-[5%] left-[5%] transition-all duration-300 w-10 h-10 hover:border-primary hover:bg-white hover:text-primary text-white">
         <FontAwesomeIcon icon={faAngleUp} />
       </button>
     </>
