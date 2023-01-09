@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 import fullyResponsive from "../../../assets/images/fullyResponsive.png";
 
@@ -15,4 +15,4 @@ function FullyResponsive() {
   );
 }
 
-export default FullyResponsive;
+export default memo(FullyResponsive);
