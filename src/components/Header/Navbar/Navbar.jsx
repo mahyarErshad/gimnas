@@ -10,7 +10,7 @@ function Navbar() {
   const NavLinks = () => {
     return (
       <>
-        <HeaderNavLinks color="text-[#bbb]" title="شروع سفر" />
+        <HeaderNavLinks color="text-[#bbb]" title="صفحه اصلی" />
         <HeaderNavLinks href="#demos" title="پیش نمایش ها" />
         <HeaderNavLinks href="#features" title="ویژگی ها" />
         <HeaderNavLinks target="_blank" href="https://www.rstheme.com/products/documentations/gimnas/" title="مستندات آنلاین" />
