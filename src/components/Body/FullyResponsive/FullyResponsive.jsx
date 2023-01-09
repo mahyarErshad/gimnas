@@ -1,6 +1,6 @@
 import React from "react";
 import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
-import fullyResponsive from "../../../assets/images/fullyResponsive.jpg";
+import fullyResponsive from "../../../assets/images/fullyResponsive.png";
 
 function FullyResponsive() {
   return (
