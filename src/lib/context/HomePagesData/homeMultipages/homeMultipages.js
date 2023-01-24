@@ -8,32 +8,32 @@ const homeMultiPagesData = [
   {
     image: homeGymDefault,
     title: "صفحه اصلی ۱ (صفحه پیش فرض)",
-    href: "https://rstheme.com/products/wordpress/gimnas/",
+    href: "https://raykacode.com/gimnas/",
   },
   {
     image: Home2,
     title: "صفحه اصلی ۲ (باشگاه)",
-    href: "https://rstheme.com/products/wordpress/gimnas/home-two/",
+    href: "https://raykacode.com/gimnas/home-two/",
   },
   {
     image: Home3,
     title: "صفحه اصلی ۳ (باشگاه)",
-    href: "https://rstheme.com/products/wordpress/gimnas/home-three/",
+    href: "https://raykacode.com/gimnas/home-three/",
   },
   {
     image: Home4,
     title: "صفحه اصلی ۴ (یوگا)",
-    href: "https://rstheme.com/products/wordpress/gimnas/home-four/",
+    href: "https://raykacode.com/gimnas/home-four/",
   },
   {
     image: Home5,
     title: "صفحه اصلی ۵ (مربی شخصی)",
-    href: "https://rstheme.com/products/wordpress/gimnas/home-personal-trainer/",
+    href: "https://raykacode.com/gimnas/home-personal-trainer/",
   },
   {
     image: Yoga,
     title: "یوگا (مربی شخصی)",
-    href: "https://rstheme.com/products/wordpress/gimnas/yoga-personal-trainer/",
+    href: "https://raykacode.com/gimnas/yoga-personal-trainer/",
   },
 ];
 
