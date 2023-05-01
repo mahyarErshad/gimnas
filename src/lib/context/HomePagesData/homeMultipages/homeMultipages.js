@@ -8,32 +8,32 @@ const homeMultiPagesData = [
   {
     image: homeGymDefault,
     title: "صفحه اصلی ۱ (صفحه پیش فرض)",
-    href: "https://raykacode.com/gimnas/",
+    href: "https://rahinoteam.com/products/gimnas/demos/",
   },
   {
     image: Home2,
     title: "صفحه اصلی ۲ (باشگاه)",
-    href: "https://raykacode.com/gimnas/home-two/",
+    href: "https://rahinoteam.com/products/gimnas/demos/home-two/",
   },
   {
     image: Home3,
     title: "صفحه اصلی ۳ (باشگاه)",
-    href: "https://raykacode.com/gimnas/home-three/",
+    href: "https://rahinoteam.com/products/gimnas/demos/home-three/",
   },
   {
     image: Home4,
     title: "صفحه اصلی ۴ (یوگا)",
-    href: "https://raykacode.com/gimnas/home-four/",
+    href: "https://rahinoteam.com/products/gimnas/demos/home-four/",
   },
   {
     image: Home5,
     title: "صفحه اصلی ۵ (مربی شخصی)",
-    href: "https://raykacode.com/gimnas/home-personal-trainer/",
+    href: "https://rahinoteam.com/products/gimnas/demos/home-personal-trainer/",
   },
   {
     image: Yoga,
     title: "یوگا (مربی شخصی)",
-    href: "https://raykacode.com/gimnas/yoga-personal-trainer/",
+    href: "https://rahinoteam.com/products/gimnas/demos/yoga-personal-trainer/",
   },
 ];
 
